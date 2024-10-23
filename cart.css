@@ -1,0 +1,33 @@
+.cart-container {
+    margin-top: 20px;
+}
+.cart-table {
+    width: 100%;
+}
+.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+.empty-cart {
+    text-align: center;
+    padding: 20px;
+}
+.quantity-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quantity-controls button {
+    padding: 5px;
+}
+td {
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+
+.btn.btn-success {
+    margin: 0px 0px 15px 0px;
+}

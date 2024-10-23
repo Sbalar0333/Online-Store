@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #898b8b !important;
+}
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.form-container table {
+    width: 100%;
+    border-spacing: 0;
+}
+.form-container td {
+    padding: 10px;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container input[type="file"] {
+    margin-top: 10px;
+}
+.form-container .profile-photo {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}
+.form-container input[type="submit"],
+.form-container input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-container input[type="submit"]:hover,
+.form-container input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+
+/* body {
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+} */

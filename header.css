@@ -1,0 +1,75 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mainclass {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainclass .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+}
+
+.auth-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+.auth-buttons .sign-up, .auth-buttons .sign-out {
+    background-color: #238636;
+    border: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.auth-buttons .sign-out, .auth-buttons .sign-up, .auth-buttons .sign-in:hover {
+    color: white;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+span.count {
+    display: flex;
+    align-items: flex-start;
+}
+
+a.fa-solid.fa-cart-shopping {
+    display: flex;
+    align-items: center;
+}
